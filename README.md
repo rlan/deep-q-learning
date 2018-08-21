@@ -31,3 +31,10 @@ docker pull wqael/deep-q-learning
 ```sh
 docker run -it -p 8888:8888 -p 6006:6006 -v ~/github/deep-q-learning:/notebooks wqael/deep-q-learning
 ```
+
+
+## Rendering of OpenAI Gym in Jupyter
+
+Notebook: [render_gym.ipynb](render_gym.ipynb)
+
+![render_gym](./assets/jupyter_openai_gym_rendering.jpg)
