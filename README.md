@@ -20,3 +20,14 @@ This is in order to limit the maximum number of elements in the memory.
 
 The training might be unstable for `dqn.py`. This problem is mitigated in `ddqn.py`.
 I'll cover `ddqn` in the next article.
+
+
+## Docker Image
+
+```sh
+docker pull wqael/deep-q-learning
+```
+
+```sh
+docker run -it -p 8888:8888 -p 6006:6006 -v ~/github/deep-q-learning:/notebooks wqael/deep-q-learning
+```
